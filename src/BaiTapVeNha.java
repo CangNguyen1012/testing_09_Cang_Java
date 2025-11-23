@@ -2,7 +2,7 @@ import java.util.Arrays;
 import java.util.HashMap;
 
 public class BaiTapVeNha {
-    //    Bai 1: Xoa nguyen am trong chuoi
+    //    Bai 1: Xoa nguyen am trong chuoi (BTVN)
     public static String removeVowels(String inputBai1) {
         String vowels = "aeiouAEIOU";
         String result = "";
@@ -35,7 +35,7 @@ public class BaiTapVeNha {
         return minVal;
     }
 
-    //    Bai 3: Tinh tong cac so chan
+    //    Bai 3: Tinh tong cac so chan (BTVN)
     public static int sumEven(int nBai3) {
         int sum = 0;
         for (int i = 0; i <= nBai3; i++) {
@@ -46,7 +46,7 @@ public class BaiTapVeNha {
         return sum;
     }
 
-    //    Bai 4: Dem so tu trong mot chuoi
+    //    Bai 4: Dem so tu trong mot chuoi (BTVN)
     public static int countWords(String inputBai4) {
         if (inputBai4 == null || inputBai4.length() == 0) {
             return 0;
@@ -66,7 +66,7 @@ public class BaiTapVeNha {
         return result;
     }
 
-    //    Bai 6: Tinh thue thu nhap ca nhan dua tren muc thu nhap
+    //    Bai 6: Tinh thue thu nhap ca nhan dua tren muc thu nhap (BTVN)
     public static double calculateTax(double income) {
         double tax = 0;
 
